@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Readex+Pro&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins';
+	background-color: #F9F9F9;
+}
+
+table, th, td{
+	border: solid 0.5px;
+	margin: 0 auto;
+}
+
+table{
+	border-collapse: collapse;
+	margin-bottom: 50px;
+	background-color: white;
+}
+
+td, th{
+	padding: 10px;
+	text-align: center;
+	vertical-align: center;
+}
+
+
+th{
+	background-color: #DCDCDC;
+	border-top-color: #DCDCDC; 
+}
+
+
+th.Nome{
+	font-size: 11px;
+	border-left-color: #DCDCDC;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Sobrenome{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Pai{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Mae{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Avopaterno{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Avopaterna{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Avomaterno{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Avomaterna{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Sexo{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Cor{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Datanascimento{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.IdRaca{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #dcdcdc;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.IdRegistro{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.IdCanil{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.NomeCanil{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Proprietario{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.SobrenomeProprietario{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Gmail{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Rua{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Bairro{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Cidade{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.IdCanil{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.Estado{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.IdNinhada{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-left-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+
+th.DataTransferencia{
+	font-size: 11px;
+	border-right-color: #C0C0C0;
+	border-right-color: #DCDCDC;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.IdCachorro{
+	font-size: 11px;
+	border-left-color: #DCDCDC;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.IdCachorroCanil{
+	font-size: 11px;
+	border-left-color: #DCDCDC;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+th.NomeRaca{
+	font-size: 11px;
+	border-left-color: #DCDCDC;
+	border-right-color: #C0C0C0;
+	border-bottom: 5px solid #Fba31a;
+}
+
+td{
+	color: black;
+	border-bottom-color: white;
+	font-weight: bold;
+}
+
+td.Id{
+	font-size: 11px;
+	border-left-color: white;
+	border-right-color: white;
+
+}
+
+td.Nome{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Sobrenome{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Pai{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Mae{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Avopaterno{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Avopaterna{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Avomaterno{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Avomaterna{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Sexo{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Cor{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Datanascimento{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.IdRaca{
+	font-size: 11px;
+	border-right-color: white;
+	border-left-color: white;
+}
+
+td.IdRegistro{
+	font-size: 11px;
+	border-right-color: white;
+	border-left-color: white;
+}
+
+td.IdCanil{
+	font-size: 11px;
+	border-right-color: white;
+	border-left-color: white;
+}
+
+td.NomeCanil{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Proprietario{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.SobrenomeProprietario{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Gmail{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Rua{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Bairro{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Cidade{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.Estado{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.IdNinhada{
+	font-size: 11px;
+	border-right-color: white;
+	border-left-color: white;
+}
+
+
+td.IdCachorro{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+td.CachorroCanil{
+	font-size: 11px;
+	border-right-color: white;
+	border-left-color: white;
+}
+
+td.Transferencia{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+
+td.NomeRaca{
+	font-size: 11px;
+	border-right-color: white;
+}
+
+tr:nth-child(even){
+	background: #F9F9F9;
+}
+
+
+
+ul.menu{
+	font-family: 'Poppins';
+	margin: 0%;
+	background-color: #B8BA7A;
+	list-style: none;
+	font-weight: bold;
+	font-size: 70%;
+	letter-spacing: 2px;
+}
+
+li.menu1{
+	display: inline;
+}
+
+li.menu2{
+	display: inline;
+}
+
+li.menu3{
+	display: inline;
+}
+
+li.menu4{
+	display: inline;
+}
+
+li.menu5{
+	display: inline;
+}
+
+li.menu6{
+	display: inline;
+}
+
+a.menu1{
+	padding-left: 2%;
+	padding-right: 1%;
+	padding-top: 0.9%;
+	padding-bottom: 0.9%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+a.menu2{
+	padding: 0.9% 1%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+a.menu3{
+	padding: 0.9% 1%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+a.menu4{
+	padding: 0.9% 1%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+a.menu5{
+	padding: 0.9% 1%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+a.menu6{
+	padding: 0.9% 1%;
+	display: inline-block;
+	color: white;
+	text-decoration: none; 
+}
+
+.menu1 a:hover{
+	color:white;
+	background-color: #B6B386;
+}
+
+.menu2 a:hover{
+	color:white;
+	background-color: #B6B386;
+}
+
+.menu3 a:hover{
+	color:white;
+	background-color: #B6B386;
+}
+
+.menu4 a:hover{
+	color:white;
+	background-color: #B6B386;
+}
+
+.menu5 a:hover{
+	color:white;
+	background-color: #B6B386;
+}
+
+.menu6 a:hover{
+	color:white;
+	background-color: #B6B386;
+}
+
+
+a:hover{
+	color: white;
+}
+
+div.procurar{
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	background-color: #BCC861;
+	border-radius: 10px;
+}	
+
+p.procurar{
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-bottom: 1%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	color: white;
+
+}
+
+.procurar input[type='text'] {
+	border-bottom: 2px solid #ffffff;
+	border-right: 0px solid #BCC861;
+	border-left: 0px solid #BCC861;
+	border-top: 0px solid #BCC861;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	color: white;
+	margin-left: 3%;
+	padding: 0.7%;
+  	background: #BCC861;;
+}
+
+
+div.input{
+	padding-left: 3%;
+}
+
+a{
+	padding-left: 1%;
+	font-size: 100%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+ input[type='radio']:after {
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ffa500;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+	.button {
+		width: 100%;
+        height: 40px;
+    	-webkit-transition-duration: 0.4s;
+    	transition-duration: 0.4s;
+    	border: 0px solid #BCC861;
+    	background-color: #BCC861;
+    	border-radius: 10px;
+    	font-family: 'Quicksand', sans-serif;
+		font-weight: bold;
+		color: white;
+		text-transform: uppercase;
+		font-size: 100%;
+	}
+
+	.button:hover {
+    	background-color: #97AD47; 
+    	color: white;
+	}
